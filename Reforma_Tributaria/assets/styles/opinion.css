@@ -1,0 +1,44 @@
+
+.tituloRef{
+    text-align: center;
+    font-size: 35px;
+    background: #853400;
+    box-shadow: 2px 2px 3px #c06500;
+    color: white;
+    height: 15vh;
+    line-height: 100px;
+}
+
+.texto{
+    background-color: white;
+    border: 2px dotted #ffcc50;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.boton{
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    align-items: center;
+}
+
+.boton button{
+    width: 300px;
+    height: 40px;
+    box-shadow: 2px 2px 3px #c06500;
+    background-color: #853400;
+    border: none;
+}
+
+.boton button:hover{
+    background-color: #8080806e;
+}
+
+a, i{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}

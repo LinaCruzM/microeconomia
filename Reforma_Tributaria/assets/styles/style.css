@@ -1,0 +1,50 @@
+body{
+    font-family: Georgia, 'Times N', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background: #ffcc50;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-attachment: fixed;
+    position: relative;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size:xx-large;
+    font-family: Georgia, 'Times N', Times, serif;
+}
+.nav{
+    height: 100%;
+    background-color: #853400;  
+    border-bottom: solid 10px #ffff89;
+}
+.nav-menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+      
+}
+.nav-menu-item{
+    height: 100px;
+    width: 770px;
+    background: none;
+    border: none;
+}
+#item-concept{
+    border-right: dotted 2px #ffff89;
+}
+
+#item-news:hover{
+    background-color: #8080806e;
+}
+
+#item-concept:hover{
+    background-color: #8080806e;
+}
+
